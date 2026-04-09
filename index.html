@@ -9,10 +9,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | IP Address Tracker</title>
-  <link rel="" stylesheet" href="https://unpkg.com/leaflet/dist.leaflet.css" />
+  <!-- google fonts -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Rubik" />
+  <!-- the leaflet css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist.leaflet.css" />
+  <!-- the leaflet js -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
-  script src="script.js"></script>
+  <!-- local css and js files -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -29,7 +34,6 @@
 </head>
 
 <body>
-  //create header
   <header class="header">
     <h1>IP Address Tracker</h1>
 
@@ -43,16 +47,30 @@
 
   </header>
 
-  IP Address Tracker
+  <!--information card-->
+  <section class="info">
+    <div>
+      <p>IP ADDRESS</p>
+      <h2 id="ip">...</h2>
+    </div>
 
-  Search for any IP address or domain
+    <div>
+      <p>LOCATION</p>
+      <h2 id="location">...</h2>
+    </div>
 
-  IP Address
-  Location
-  Timezone
-  UTC <!-- add offset value dynamically using the API -->
-  ISP
+    <div>
+      <p>TIMEZONE</p>
+      <h2 id="timezone">...</h2>
+    </div>
 
+    <div>
+      <p>ISP</p>
+      <h2 id="isp">...</h2>
+    </div>
+  </section>
+
+  <!--footer-->
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
     Coded by <a href="#">Tracey Roberts</a>.
