@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: file:///Users/traceyroberts/PS_Tech_Training/Mod7%20Project%20IP-Address-Tracker/index.html
-- Live Site URL: http://127.0.0.1:5500/index.html?
+- Live Site URL: https://eclectic-starburst-e85af1.netlify.app/
 
 ## My process
 
