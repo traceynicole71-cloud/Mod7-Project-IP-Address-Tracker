@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - CSS custom properties
 - [leaflet.js](https://leafletjs.com/)
 - [IP Geolocation API by IPify] https://www.ipify.org/
