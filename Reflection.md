@@ -3,3 +3,5 @@ This was the most difficult project I've faced thus far.  With several revisions
 Another challenge for me was my tendency to capitalize words throughout coding, because its a natural standard in writing, continued to disrupt the coding environment even after I scrapped most of my code and started over.  Through the eyes of a fellow software engineer, I was able to correct those issues.
 
 Looking ahead, one thing I want to focus on is error-handling and I have decided that I am going to lean into typescript for the strict writing rules I need.  It will enable me to make corrections immendiately, and ensure that my projects function properly the first time (I hope). i also want to focus more on the accessibility modifications.  After completing thaqt module, it was an afterthought and I never used the design again.
+
+Oh, I also forgot to launch my page!
