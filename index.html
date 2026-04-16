@@ -19,37 +19,39 @@
   <header class="header">
     <h1>IP ADDRESS TRACKER</h1>
     <form class="header_form">
-      <input type="text" class="header_input" placeholder="Search for any IP address or domain">
-      <button type="submit" class="search_button">
-        <img src="./images/icon-arrow.svg" alt="Search">
+      <label for="ip-search" class="sr-only">Search for any IP Address or Domain</label>
+      <input type="text" id="ip-search" class="header_input" placeholder="Search for any IP address or domain">
+      <button type="submit" class="search_button" aria-label="Submit IP search">
+        <img src="./images/icon-arrow.svg" alt="" aria-label="true">
       </button>
     </form>
   </header>
 
   <!--information card-->
-  <section class="info">
+  <section class="info" aria-live="polite" aria-atomic="true">
     <div>
-      <p>IP ADDRESS</p>
-      <h2 id="ip">...</h2>
+      <p id="label-ip">IP ADDRESS</p>
+      <h2 id="ip" aria-labelledby="label-ip">...</h2>
     </div>
 
     <div>
-      <p>LOCATION</p>
-      <h2 id="location">...</h2>
+      <p id="label-location">LOCATION</p>
+      <h2 id="location" aria-labelledby="label-location">...</h2>
     </div>
 
     <div>
-      <p>TIMEZONE</p>
-      <h2 id="timezone">...</h2>
+      <p id="label-timezone">TIMEZONE</p>
+      <h2 id="timezone" aria-labelledby="label-timezone">...</h2>
     </div>
 
     <div>
-      <p>ISP</p>
-      <h2 id="isp">...</h2>
+      <p id="label-isp">ISP</p>
+      <h2 id="isp"aria-labelledby=label-isp>...</h2>
     </div>
   </section>
+
   <main class="content">
-    <div id="map"></div>
+    <div id="map" aria-lable="Map showing IP and domain location"></div>
   </main>
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script defer src="script.js"></script>

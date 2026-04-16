@@ -13,6 +13,11 @@ body {
   flex-direction: column;
 }
 
+.sr-only {
+  position: absolute;
+  witdth: 1px;
+  
+}
 .header {
   background-image: url('./images/pattern-bg-desktop.png');
   background-size: cover;
